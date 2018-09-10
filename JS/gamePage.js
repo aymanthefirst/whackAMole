@@ -5,7 +5,7 @@ $(document).ready(function(){
   var missed = 0;
   var speed = 2500; // speed at which moles pop up
   var slideSpeed = 1000; // time moles stay up for
-  var time = 15000; // 40 seconds
+  var time = 40000; // 40 seconds
   var randomNumber = 0;
   var lastRandomNumber = 0;
   $('#topScore').html(localStorage.getItem('score'));
