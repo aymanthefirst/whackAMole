@@ -1,0 +1,33 @@
+itteration 1
+  design the screen using html
+    background immage
+itteration 2
+  make mole objects appear on the screen at random times and locations
+  -- bootstrap: make 2 rows with 3 cols on each
+    -- outline each to make clear
+  -- get a mole image
+-- make image appear
+  -- make it dispapear again
+
+itteration 3
+  -make objects appear at random
+  - make them disappear after 2 seconds
+
+  itteration 5
+    keep track of how many moles were clicked and how many got away
+    and show this on a score board in the top left of the screen
+
+  6
+    -increase the speed at which they appear and dissappear at
+    - make objects slide up and down
+
+  if all else is finished
+    make sounds
+    make the screensize adjustable
+    add better visuals such as making the object change when it is whacked, before diappearing
+
+
+
+    make mole from class of moles be chosen at random
+    use the method on that class
+    

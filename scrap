@@ -1,0 +1,68 @@
+(function play() {
+  var interval = 1001;
+  timer = function()
+  {
+    interval = interval*0.99;
+
+    var randomNumber = Math.floor(Math.random() * 8); // gets random number
+      popOut($(".mole:eq( "+ randomNumber +" )"));
+    if (missed <= 3) {
+        setTimeout(timer, interval);
+    }
+    else {
+      alert("Game over!");
+    }
+  };
+    timer();
+})();
+
+
+function popOut(aMole) {
+  if (!aMole.is(":visible") || count == 0) {
+    count++;
+    updateMissed();
+    $('#count').html("Count: "+ count);
+    aMole.show(); // mole appearss
+    aMole.animate({marginTop: -100}); // slide up
+    setTimeout(function() { //wait 2 seconds
+      aMole.animate({
+                 marginTop : -10 // slide down
+             }, function() {
+                 aMole.hide(); // disappear only after slide
+             });
+      }, 2000);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+..........................................
+
+  <div id="gameOverBox" class="row">
+    <div class="row">
+      <div class="col-12 gameOverRow">
+        <h2 id="gameOver">Game Over!!</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 gameOverRow">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 gameOverRow">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 gameOverRow">
+        <button id="restart" type="button" name="Restart">Restart</button>
+      </div>
+    </div>
+  </div>
