@@ -1,0 +1,118 @@
+body{
+	background-color: lightblue;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+	z-index: 0;
+	position: absolute;
+}
+
+#top{
+	height: 50px;
+}
+
+h2 {
+	text-align: center;
+	/* border: 2px solid black; */
+}
+
+#div2{
+	height: 600px;
+	width: 80%;
+	padding-left: 20%;
+}
+
+.link{
+	z-index: 5;
+	position: absolute;
+}
+
+#link1{
+	/* border: 2px solid black; */
+	margin-top: 240px;
+	margin-left: 650px;
+	height: 200px;
+	width: 200px;
+}
+
+#link2{
+	/* border: 2px solid black; */
+	margin-top: 240px;
+	margin-left: 420px;
+	height: 100px;
+	width: 100px;
+}
+
+#link3{
+	/* border: 2px solid black; */
+	margin-top: 240px;
+	margin-left: 550px;
+	height: 100px;
+	width: 100px;
+}
+
+body{
+  cursor: url('../images/hammer.png') 150 15,auto;
+}
+
+body:focus{
+	cursor: url('../images/hammer90.png') 150 15,auto !important;
+}
+
+body:active{
+	cursor: url('../images/hammer90.png') 150 15,auto !important;
+}
+
+a:hover{
+			cursor: url('../images/hammer.png') 150 15,auto !important;
+}
+a:hover{
+		cursor: url('../images/hammer.png') 150 15,auto !important;
+}
+a:focus{
+	cursor: url('../images/hammer90.png') 150 15,auto !important;
+}
+
+
+
+p3{
+	color: white;
+}
+
+#instructions{
+	position: absolute;
+	height: 350px;
+	width: 250px;
+	margin-top: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	border: 2px solid black;
+	color: #f9252e;
+	background-color: #7fd902;
+}
+
+
+}
+
+#whack {
+    color: #8a4400;
+
+.font{
+	font-family: verdana, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: left;
+}
+
+h3{
+	color: darkBlue;
+}

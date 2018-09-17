@@ -1,0 +1,129 @@
+body{
+	background-color: lightblue;
+	cursor: url('../images/hammer.png') 150 15,auto !important;
+	background-image: url("../images/gamePage.jpg");
+	background-size: 100%;
+}
+
+body:focus{
+	cursor: url('../images/hammer90.png') 150 15,auto !important;
+}
+
+body:active{
+	cursor: url('../images/hammer90.png') 150 15,auto !important;
+}
+
+#restart:hover{
+		cursor: url('../images/hammer.png') 150 15,auto !important;
+}
+#restart:focus{
+	cursor: url('../images/hammer90.png') 150 15,auto !important;
+}
+
+#restart:active{
+	cursor: url('../images/hammer90.png') 150 15,auto !important;
+}
+
+#topRow{
+	margin-left: 10%;
+	height: 200px;
+}
+
+.col-3{
+	height: 130px;
+}
+
+.col-12{
+	height: 150px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.dirt{
+	z-index: 2;
+	position: absolute;
+	width: 80%;
+}
+
+.mole{
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	display: none;
+}
+
+h2{
+	font-family: "impact";
+	color: brown;
+}
+
+#row2{
+	margin-top: 130px;
+}
+
+#gameOverBox{
+	font-family: "impact";
+	font-size: 100%;
+	display: none;
+	border: 2px solid black;
+	padding: 3% 10% 5% 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+	position: absolute;
+	background-color: #5beefe;
+	z-index: 10;
+	vertical-align: top;
+
+}
+
+#gameOver{
+	margin-bottom: 30px;
+	-webkit-text-fill-color: darkBlue;
+-webkit-text-stroke-color: #3b2906;
+-webkit-text-stroke-width: 2.00px;
+font-size: 60px;
+
+}
+
+#topScoreRow{
+		display: none;
+}
+
+#topRight{
+	color: black;
+	float: right;
+}
+
+.topBox{
+	border: 2px solid black;
+	margin-top: 1%;
+	width: 60%;
+	text-align: center;
+	background-color: #ace12f;
+	margin-left: 10%;
+}
+
+.gameOverRow{
+	height:10px;
+	width: 100%;
+	padding: 100%;
+	border: 2px solid black;
+}
+
+.button{
+	border: 1px solid black;
+	background-color: blue;
+color: #ace12f;
+}
+
+.button:hover{
+	color: white;
+}
+
+#leaderTable{
+display: none;
+}
